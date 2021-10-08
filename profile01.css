@@ -1,0 +1,62 @@
+body {
+    background-color: #141414;
+    font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #fff;
+    line-height: 1.2;
+    user-select: none;
+    cursor: default;
+    padding: none;
+    display: block;
+    margin: 0;
+}
+nav {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+    height: 60px;
+    margin-right: 0;
+    margin-left: 0;
+}
+h1 {
+    font-size: 40px;
+    font-weight:150;
+    text-decoration: white;
+    margin-bottom: 15px;
+    border-bottom: 1px solid  rgb(151, 150, 150);
+}
+u {
+    font-weight: 100;
+}
+
+#profile {
+    margin-bottom: 0;
+    margin: auto;
+    justify-content: center;
+    width: 32%;
+}
+#name-input {
+    width: 13rem;
+    height: 1.5rem;
+    position: relative;
+    margin-left: 0.5rem;
+    bottom: 60px;
+    background: rgb(116, 116, 116) ;
+    padding-top: 5px;
+}
+#drop-down {
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+    padding-top: 10px;
+}
+label {
+    font-size: 12px;
+}
+#maturity {
+    width: 68%;
+    border-top: 1px solid rgb(151, 150, 150);
+    position: relative;
+    padding-top: 10px;
+    left: 100px;
+}
+#maturity-btn {
+    margin-top: 10px;
+}
