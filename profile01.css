@@ -16,6 +16,7 @@ nav {
     margin-left: 0;
 }
 h1 {
+    padding-bottom: 6px;
     font-size: 40px;
     font-weight:150;
     text-decoration: white;
@@ -27,19 +28,23 @@ u {
 }
 
 #profile {
+    padding-bottom: 5px;
     margin-bottom: 0;
     margin: auto;
     justify-content: center;
-    width: 32%;
+    width: 30%;
 }
 #name-input {
-    width: 13rem;
+    width: 14rem;
     height: 1.5rem;
     position: relative;
     margin-left: 0.5rem;
     bottom: 60px;
     background: rgb(116, 116, 116) ;
     padding-top: 5px;
+}
+#language {
+    margin-bottom: 10px;
 }
 #drop-down {
     position: relative;
@@ -51,7 +56,8 @@ label {
     font-size: 12px;
 }
 #maturity {
-    width: 68%;
+    font-size: 12px;
+    width: 76%;
     border-top: 1px solid rgb(151, 150, 150);
     position: relative;
     padding-top: 10px;
@@ -59,4 +65,12 @@ label {
 }
 #maturity-btn {
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+#show-titles {
+    position: relative;
+    padding-top: 40px;
+}
+#id-btn {
+    margin-top: 20px;
 }

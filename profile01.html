@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="profile01.css">
     <title>Homepage</title>
 </head>
 
@@ -29,7 +29,7 @@
                         <input id="name-input"type="text">
                         <div class=" position relative">
                             <div id="drop-down">
-                                <label for="cars">Language:</label>
+                                <label id="language"for="cars">Language:</label>
                                 <div></div>
                                 <form action="/action_page.php" style="width: 6rem;">
                                     
@@ -46,7 +46,13 @@
                             <div class="block">
                                 <label for="cars">Maturity Settigs:</label>
                                 <div></div>
-                                <button id="maturity-btn"type="button" class="btn btn-warning">All maturity</button>
+                                <button id="maturity-btn"type="button" class="btn btn-warning">All maturity ratings</button>
+                                <div>
+                                    <label id="show-titles"for="cars">Show titles for all maturity for this profile.</label>
+                                </div>
+                                <div>
+                                    <button id="id-btn" type="button" class="btn btn-secondary">Edit</button>
+                                </div>
                             </div>
                         </div>
                     </div>
