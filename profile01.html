@@ -17,9 +17,9 @@
             <img src="/Users/obi/DEV/Strive/Module02/myNetflix/assets/netflix_logo.png" width="120" height="50" alt="">
             </a>
         </nav>
-    <div id = "profile" class="container-fluid position-absolute">
+    <div id = "profile" class="container position-absolute">
         <div class="block">
-            <div class="col-5 m-auto text-align-center ">
+            <div class="col-sm-4 col-md-4 col-lg-6  m-auto text-align-center ">
                 <h1>
                     Edit Profile
                 </h1>
@@ -31,7 +31,7 @@
                             <div id="drop-down">
                                 <label id="language"for="cars">Language:</label>
                                 <div></div>
-                                <form action="/action_page.php" style="width: 6rem;">
+                                <form action="/action_page.php" style="width: 4rem;">
                                     
                                     <select name="cars" id="cars">
                                         <option value="volvo">English</option>
@@ -44,14 +44,31 @@
                         </div>
                         <div id="maturity"class="position-relative">
                             <div class="block">
-                                <label for="cars">Maturity Settigs:</label>
+                                <label for="cars">Maturity Settings:</label>
                                 <div></div>
-                                <button id="maturity-btn"type="button" class="btn btn-warning">All maturity ratings</button>
+                                <button id="maturity-btn"type="button" class="btn btn-warning">All Maturity Ratings</button>
                                 <div>
                                     <label id="show-titles"for="cars">Show titles for all maturity for this profile.</label>
                                 </div>
                                 <div>
                                     <button id="id-btn" type="button" class="btn btn-secondary">Edit</button>
+                                </div>
+                                <div id="autoplay-controls">
+                                    <label for="cars">Autoplay controls</label>
+                                </div>
+                                <div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="checked" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Autoplay next episodes in a series of all devices.
+                                        </label>
+                                        </div id="checkbox">
+                                            <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="checked" id="defaultCheck2">
+                                            <label class="form-check-label" for="defaultCheck2">
+                                            Autoplay previews whilst browsing on all devices.
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -59,6 +76,24 @@
                 </div>
                 
             </div>
+            
+        </div>
+        <div>
+            <div class="block">
+                <div class="col-md-5 collg-5 m-auto text-align-center" >
+                    <h1> </h1>  <!-- This is empty. Its here to create a border top just like in the h1 above -->
+                    <button class="save-btn" style="font-size: 16px; 
+                    padding: 8px 20px;
+                    letter-spacing: 2px; 
+                    color: gb(151, 150, 150);">Save</button>
+                    
+                    <button class="cancel-btn" style="font-size: 16px; 
+                    padding: 10px 20px; margin-left: 15px; 
+                    letter-spacing: 2px; 
+                    background-color: rgb(17, 17, 17); 
+                    color: rgb(95, 95, 95);
+                    border: 1px solid grey;">Cancel</button>
+                </div>
             </div>
         </div>
     </div>
