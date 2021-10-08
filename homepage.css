@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(14, 12, 12);
+    background-color: rgb(27, 26, 26);
 }
 .navbar{
     color: white;
 }
-h3,h4,h5{
-    color: white;
+h3,h4,h5,h6{
+    color:whitesmoke;
 }
 .imglogo{
     width: 80px;
