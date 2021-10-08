@@ -18,3 +18,10 @@ hr{
     margin-left: 20px;
     margin-right: 10px;
 }
+a{
+    color:gray;
+
+   }
+   .carousel-inner{
+       height: 450px;
+   }
