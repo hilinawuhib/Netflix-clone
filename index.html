@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Nextflix</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <img src="assets/netflix_logo.png" alt="logo" />
+    </nav>
+    <div class="container">
+      <h1 class="text-light proHead">Edit Profile</h1>
+      <hr />
+
+      <div class="row">
+        <!--THIS IS STARTING OF ROW-->
+        <div class="firstCol mx-3">
+          <img class="avatar img-fluid" src="/assets/avatar.png" alt="ava" />
+        </div>
+        <div class="secondCol">
+          <h4 class="profEdit mb-3 p-1">Strive Student</h4>
+
+          <h5 class="text-muted my-2">Language:</h5>
+          <div class="dropdown">
+            <button
+              class="dropdown-toggle language-btn"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              English
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">French</a>
+              <a class="dropdown-item" href="#">Arabic</a>
+              <a class="dropdown-item" href="#">Uzbeque</a>
+            </div>
+          </div>
+          <hr />
+          <div>
+            <h5 class="text-muted mature">Maturity Settings:</h5>
+            <h6 class="mature2 p-2">all maturity ratings</h6>
+            <p class="my-2">
+              Show titles of all maturity ratings for this profile.
+            </p>
+            <button class="editButton">EDIT</button>
+          </div>
+          <hr />
+          <div>
+            <h5 class="text-muted">Autoplay Controls</h5>
+            <div class="d-flex">
+              <input class="m-2" type="checkbox" name="#" id="" />
+              <p>Autoplay next Episode in a serial on all devices</p>
+            </div>
+            <div class="d-flex">
+              <input class="m-2" type="checkbox" name="#" id="" />
+              <p>Autoplay next Episode in a serial on all devices</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="profile-buttons text-align-center">
+        <button class="bottom-btn">SAVE</button>
+        <button class="bottom-btn">CANCEL</button>
+        <button class="bottom-btn">DELETE PROFILE</button>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
