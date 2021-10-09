@@ -22,9 +22,7 @@ h4{
   align-items: center;
   justify-content: center;
 }
-.form-group {
- 
-}
+
 h6{
   color:blue;
   text-align: right;
@@ -40,4 +38,7 @@ button{
 .h6class{
   text-align: left;
   color: blue;
+}
+hr{
+  color-adjust:gray;
 }
