@@ -1,3 +1,7 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
 .imglogo {
   width: 120px;
   height: 60px;
@@ -15,7 +19,7 @@ body {
   margin-right: 10px;
 }
 h4{
-  color:rgb(48, 44, 44);
+  color:rgb(95, 78, 78);
 }
 .container{
  
@@ -34,11 +38,21 @@ button{
   padding-right: 40px;
   background-color: rgb(236, 230, 230);
   border-radius: 5px;
+  border: 1px solid;
+  
 }
 .h6class{
   text-align: left;
   color: blue;
 }
 hr{
-  color-adjust:gray;
+  color-adjust:rgb(80, 66, 66);
+}
+.ultraHD{
+  height: 20px;
+  width: 120px;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 1px;
+
 }
