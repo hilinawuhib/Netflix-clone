@@ -1,0 +1,43 @@
+.imglogo {
+  width: 120px;
+  height: 60px;
+}
+body {
+  background-color: rgb(236, 239, 243);
+  
+}
+.navbar {
+  color: white;
+  margin-bottom: 20px;
+}
+.icons {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+h4{
+  color:rgb(48, 44, 44);
+}
+.container{
+ 
+  align-items: center;
+  justify-content: center;
+}
+.form-group {
+ 
+}
+h6{
+  color:blue;
+  text-align: right;
+}
+button{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: rgb(236, 230, 230);
+  border-radius: 5px;
+}
+.h6class{
+  text-align: left;
+  color: blue;
+}
