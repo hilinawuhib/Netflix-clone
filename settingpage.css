@@ -36,9 +36,9 @@ button{
   padding-bottom: 5px;
   padding-left: 40px;
   padding-right: 40px;
-  background-color: rgb(236, 230, 230);
+  background-color: rgb(187, 173, 173);
   border-radius: 5px;
-  border: 1px solid;
+  border: 0 solid;
   
 }
 .h6class{
@@ -46,7 +46,7 @@ button{
   color: blue;
 }
 hr{
-  color-adjust:rgb(80, 66, 66);
+  color-adjust:rgb(145, 138, 138);
 }
 .ultraHD{
   height: 20px;
