@@ -1,11 +1,14 @@
 .navbar img {
   width: 150px;
 }
+nav {
+  background-image: linear-gradient(180deg,black, #141414);
+}
 .proHead {
   font-weight: bold;
 }
 body {
-  background-color: rgb(0, 0, 0);
+  background: #141414;
   color: white;
 }
 
@@ -17,12 +20,13 @@ body {
 }
 
 hr {
-  background: white;
+  border-top: .05em solid rgb(97, 97, 97);
 }
 
 .profEdit {
   color: white;
   background-color: #535353;
+  font-weight: lighter;
 }
 
 .editButton {
@@ -30,6 +34,7 @@ hr {
   border: 1px solid;
   background-color: transparent;
   color: #6c6c6c;
+  letter-spacing: 1px;
   border: 1px solid #6c6c6c;
   transition: 0.3s ease-in-out;
 }
@@ -49,11 +54,18 @@ hr {
 }
 
 .bottom-btn {
+  position: relative;
+  right: 115px;
   margin: 7px;
   background-color: transparent;
   color: #6c6c6c;
   border: 1px solid #6c6c6c;
   transition: 0.3s ease-in-out;
+  letter-spacing: 1px;
+}
+.save-btn {
+  background-color: whitesmoke;
+  width: 80px;
 }
 
 .bottom-btn:hover {
@@ -68,4 +80,14 @@ hr {
 
 .avatar {
   width: 120px;
+}
+.checkbox {
+  width: 25px;
+  height: 25px;
+  background-color: transparent !important;
+  color: #6c6c6c;
+}
+.autoplay-text {
+  position: relative;
+  top: 8px;
 }
